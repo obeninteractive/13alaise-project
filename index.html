@@ -6,8 +6,10 @@
 <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <title>13ALAISE DEMO13ALAISE Demo</title>
-        <meta name="description" content="">
+        <title>13ALAISE Demo</title>
+        <meta name="description" content="Oben Interactive - 13ALAISE Quote & Demo E-Commerce.">
+        <meta name="author" content="Samba Cissé" />
+        <meta name="copyright" content="© Oben Interactive" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
@@ -217,14 +219,6 @@
 										<i class="icon social_linkedin"></i>
 									</a>
 								</li>
-
-
-
-
-
-
-
-
 							</ul>
 						</div>
 					</div>
@@ -252,6 +246,9 @@
           <div class="modal-body">
             <form action="http://formspree.io/samba.cisse@oben-interactive.fr" method="POST">
               <div class="form-group">
+                  <input type="text" class="form-control" name="name" placeholder="Prénom Nom" >
+              </div>
+              <div class="form-group">
                 <!-- <label for="recipient-name" class="control-label">Email:</label> -->
                 <input type="email" class="form-control" name="_replyto" placeholder="Votre Email">
               </div>
@@ -259,14 +256,17 @@
                 <!-- <label for="message-text" class="control-label">Message:</label> -->
                 <textarea class="form-control" rows="5" name="message" placeholder="Votre Message"></textarea>
               </div>
-            </form>
-            <input type="hidden" name="_subject" value="Customer Project : Message from BOUTIQUE 13 À L'AISE" />
+
+
+            <input type="hidden" name="_subject" value="Demo Project - Message from BOUTIQUE 13 À L'AISE" />
             <input type="text" name="_gotcha" style="display:none">
+
           </div>
           <div class="modal-footer">
             <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Annuler</button> -->
-            <button type="button" class="btn btn-default">Envoyer</button>
+            <button type="submit" class="btn btn-default">Envoyer</button>
           </div>
+          </form>
         </div>
       </div>
     </div><!-- /.modal -->
@@ -279,5 +279,7 @@
         <script src="js/scrollReveal.min.js"></script>
         <script src="js/isotope.min.js"></script>
         <script src="js/scripts.js"></script>
+        <script src="js/jquery.flexslider-min.js"></script>
+
     </body>
 </html>
