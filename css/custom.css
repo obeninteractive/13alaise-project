@@ -18,7 +18,7 @@ background-color: transparent;
 .background-image-holder, .background-image-holder  {
 /* background-image:none !important; */
 background-color: #E4F1FE !important;
-background: url(../img/bg-flat-light-blue.jpg) no-repeat !important;
+/*background: url(../img/bg-flat-light-blue.jpg) no-repeat !important;*/
 background-size: cover !important;
 }
 /*header {min-height: 100% !important;}*/
